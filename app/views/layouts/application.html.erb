@@ -13,9 +13,9 @@
 </head>
 
 <body>
+<%= render "shared/navbar" %>
 <div class="w-5/6 max-w-[1080px] mx-auto">
-
-  <%= render "shared/navbar" %>
+  <%= render :partial => "shared/flash" %>
   <%= yield %>
 </div>
 </body>
